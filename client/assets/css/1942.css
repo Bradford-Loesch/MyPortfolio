@@ -1,0 +1,68 @@
+/*body{
+    background-color:black;
+}*/
+/* background colors can be used to view/test hitboxes */
+#container{
+    background: url('/assets/images/background.jpg');
+    width:1000px;
+    height:550px;
+    position: relative;
+}
+#hero{
+    background: url('/assets/images/1942.gif');
+    background-position: -85px -180px;
+    width:26px;
+    height:26px;
+    position:absolute;
+    /*background-color: green;*/
+}
+.enemy3{
+    background: url('/assets/images/1942.gif');
+    background-position: -33px -10px;
+    width:26px;
+    height:16px;
+    position:absolute;
+    /*background-color: red;*/
+}
+.enemy2{
+    background: url('/assets/images/1942.gif');
+    background-position: -65px -13px;
+    width:26px;
+    height:16px;
+    position:absolute;
+    /*background-color: red;*/
+}
+.enemy1{
+    background: url('/assets/images/1942.gif');
+    background-position: -95px -16px;
+    width:26px;
+    height:16px;
+    position:absolute;
+    /*background-color: red;*/
+}
+.bullet{
+    background: url('/assets/images/1942.gif');
+    background-position: -185px -403px;
+    width:14px;
+    height:14px;
+    position:absolute;
+    /*background-color: blue;*/
+}
+.enemybullet{
+    background: url('/assets/images/1942.gif');
+    background-position: -123px -400px;
+    width:16px;
+    height:16px;
+    position:absolute;
+    /*background-color: blue;*/
+}
+#score{
+    position:absolute;
+    border:10px solid red;
+    top:80px;
+    left:1250px;
+    background-color:white;
+    padding:10px;
+    font-size:30px;
+    font-family: Arial;
+}
