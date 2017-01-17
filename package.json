@@ -1,0 +1,22 @@
+{
+  "name": "Bradford_Loesch_Portfolio",
+  "version": "1.0.0",
+  "description": "This is a MEAN based website for my personal portfolio.",
+  "homepage": "www.bradfordloesch.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bradford Loesch",
+  "license": "GPL-3.0",
+  "repository": "https://github.com/Bradford-Loesch/MyPortfolio.git",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-route": "^1.6.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "materialize-css": "^0.97.8",
+    "mongoose": "^4.7.2"
+  }
+}
